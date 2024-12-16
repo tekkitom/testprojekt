@@ -34,7 +34,7 @@ void Widget::on_btnAdd_clicked()
 
     ui->spinZahl2->setValue(summe);
 
-    qDebug() << "hier";
+//    qDebug() << "hier";
 
     ausgabeString = QString::number(summe);
     ui->edtAusgabe->setText(ausgabeString);
